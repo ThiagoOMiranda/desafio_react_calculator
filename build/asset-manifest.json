@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.bba3bf9c.js",
-    "index.html": "/index.html",
-    "main.bba3bf9c.js.map": "/static/js/main.bba3bf9c.js.map"
+    "main.js": "/desafio_react_calculator/static/js/main.86abb82d.js",
+    "index.html": "/desafio_react_calculator/index.html",
+    "main.86abb82d.js.map": "/desafio_react_calculator/static/js/main.86abb82d.js.map"
   },
   "entrypoints": [
-    "static/js/main.bba3bf9c.js"
+    "static/js/main.86abb82d.js"
   ]
 }
