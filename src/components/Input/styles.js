@@ -12,7 +12,7 @@ export const InputContainer = styled.div`
   background-color: #c6d877;
   box-shadow: ${(props) => {
     return `inset 8px 8px 16px #81903d, inset -8px -8px 16px #b7cc57,
-  -6px -6px 7px ${props.theme.colors.primary.gradientEnd}, 6px 6px 7px ${props.theme.colors.primary.gradientStart}`;
+  -6px -6px 7px ${props.theme.colors.primary.gradientEnd}`;
   }};
 
   input {

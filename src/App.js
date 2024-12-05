@@ -37,7 +37,7 @@ const App = () => {
       if (operation === "" && prev === "0") {
         result = num === "," ? `0${num}` : `${num}`;
       } else if (operation === "" && prev !== "0" && num === ",") {
-        return prev;
+        result = `${prev}${num}`;
       } else if (operation === "-" && prev === "0") {
         result = num === "," ? `-0${num}` : `-${num}`;
       } else if (operation !== "" && prev === firstNumber) {
@@ -63,6 +63,8 @@ const App = () => {
     const num1 = parseFloat(firstNumber.replace(",", "."));
     const num2 = parseFloat(secondNumber.replace(",", "."));
 
+    console.log("num1: " + num1, "num2: " + num2);
+
     switch (op) {
       case "+":
         result = num1 + num2;
@@ -78,6 +80,9 @@ const App = () => {
         break;
       default:
         result = currentNumber;
+    }
+    if (result.toString().includes(".")) {
+      result.toFixed(2);
     }
     return result;
   };

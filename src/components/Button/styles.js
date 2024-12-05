@@ -39,7 +39,7 @@ export const ButtonContainer = styled.button`
   overflow: hidden;
 
   &:hover {
-    filter: brightness(125%);
+    filter: brightness(110%);
   }
 
   &:active {

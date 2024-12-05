@@ -2,58 +2,58 @@ import styled from "styled-components";
 
 export const LightTheme = {
   colorText: "#333333",
-  background: "#FAFAFA",
+  background: "#fafafa",
   backgroundGradient: {
-    gradientStart: "#CED2DE",
-    gradientEnd: "#ECEFF4",
+    gradientStart: "#ced2de",
+    gradientEnd: "#ffffff",
   },
   colors: {
     primary: {
-      borderColor: "#B0B9CA",
-      rimLight: "#C1C9D4",
-      gradientStart: "#A0ADC4",
-      gradientEnd: "#C5CEDF",
+      borderColor: "#b0b9ca",
+      rimLight: "#c1c9d4",
+      gradientStart: "#808ea7",
+      gradientEnd: "#d4dae5",
     },
     secondary: {
-      borderColor: "#D0D3E2",
-      rimLight: "#DDE1EC",
-      gradientStart: "#CED2DE",
-      gradientEnd: "#ECEFF4",
+      borderColor: "#d0d3e2",
+      rimLight: "#dde1ec",
+      gradientStart: "#c4c9d7",
+      gradientEnd: "#ffffff",
     },
     alert: {
-      borderColor: "#D07419",
-      rimLight: "#E28927",
-      gradientStart: "#C15D17",
-      gradientEnd: "#DF8419",
+      borderColor: "#d07419",
+      rimLight: "#e28927",
+      gradientStart: "#c15d17",
+      gradientEnd: "#eeb36d",
     },
   },
 };
 
 export const DarkTheme = {
-  colorText: "#FFFFFF",
+  colorText: "#ffffff",
   background: "#333333",
   backgroundGradient: {
-    gradientStart: "#595B60",
-    gradientEnd: "#2A2C2F",
+    gradientStart: "#595b60",
+    gradientEnd: "#2a2c2f",
   },
   colors: {
     primary: {
-      borderColor: "#545F71",
-      rimLight: "#636C7D",
+      borderColor: "#545f71",
+      rimLight: "#636c7d",
       gradientStart: "#465262",
-      gradientEnd: "#626B7C",
+      gradientEnd: "#626b7c",
     },
     secondary: {
-      borderColor: "#3A4252",
-      rimLight: "#535B70",
-      gradientStart: "#2A303E",
-      gradientEnd: "#4D536E",
+      borderColor: "#3a4252",
+      rimLight: "#535b70",
+      gradientStart: "#2a303e",
+      gradientEnd: "#4d536e",
     },
     alert: {
-      borderColor: "#E68832",
-      rimLight: "#ECB866",
-      gradientStart: "#DD732F",
-      gradientEnd: "#E99F41",
+      borderColor: "#e68832",
+      rimLight: "#ecb866",
+      gradientStart: "#dd732f",
+      gradientEnd: "#e99f41",
     },
   },
 };
@@ -90,7 +90,6 @@ export const Row = styled.div`
   & > *:last-child {
     margin-right: 0;
   }
-
   & + & {
     margin-top: 0.5rem;
   }
